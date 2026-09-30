@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Password Strength Checker</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="card"><div class="badge">TASK 02 • CYBERSECURITY</div><h1>Password Strength Checker</h1><p>Analyze a password locally and get practical security suggestions.</p>
+<label>Password</label><div class="input"><input id="password" type="password" autocomplete="new-password" placeholder="Type a password"><button id="toggle" type="button">Show</button></div>
+<div class="meter"><div id="bar"></div></div><div class="row"><b id="level">No password</b><span id="score">0 / 100</span></div>
+<div class="checks"><div id="length">✕ At least 12 characters</div><div id="upper">✕ Uppercase letter</div><div id="lower">✕ Lowercase letter</div><div id="number">✕ Number</div><div id="special">✕ Special character</div><div id="unique">✕ Avoid repeated/common patterns</div></div>
+<section><h2>Suggestions</h2><ul id="suggestions"><li>Use a long, unique password or passphrase.</li></ul></section>
+<small>🔒 Processing happens locally in this browser.</small></main><script src="app.js"></script></body></html>
